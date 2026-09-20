@@ -1,0 +1,18 @@
+{
+  "name": "streaming-fieldservice-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/field_service_stream.ts",
+    "test": "tsx test/dispatch_decision.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^4.80.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
